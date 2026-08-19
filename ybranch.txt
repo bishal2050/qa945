@@ -35,6 +35,10 @@ class login:
     def click_login_button(self):
         self.get_login_button().click()
 
+    def test_value(self):
+        return self.browser.find_element(By.XPATH, self.lc.login_test_xpath).text
+        print(self.test_value())
+
 
     def loginpage(self,usname,pwd):
         self.click_nav_id()
