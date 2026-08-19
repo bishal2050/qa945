@@ -35,6 +35,10 @@ class login:
     def click_login_button(self):
         self.get_login_button().click()
 
+    def print_text(self):
+        print("Login page is working fine")
+        print("This is new line")
+        print ("This is divashree line")
 
     def loginpage(self,usname,pwd):
         self.click_nav_id()
