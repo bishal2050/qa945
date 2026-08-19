@@ -34,6 +34,12 @@ class login:
 
     def click_login_button(self):
         self.get_login_button().click()
+    
+    def print():
+	new data here
+	new lines of code here
+	new place here
+	sdaasd
 
 
     def loginpage(self,usname,pwd):
