@@ -1,0 +1,11 @@
+
+class test:
+    def __init__(self):
+        self.value = 0
+
+    def print(self):
+        print("This is the function")
+
+    def add(self, a, b):
+        return a + b
+
